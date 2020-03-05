@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+.bg-color-name-title{
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #3E92CC;
+}
+
+.ui-menu-color-resume {
+    background-color: #2A628F;
+}
+
+.ui-menu-color-contact {
+    background-color: #16324F;
+}
+
+.ui-menu-color-download {
+    background-color: #18435A;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table{
+    display: table;
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* ----------------------------------------Header */
+header{
+    margin: 0;
+}
+
+.logo{
+   /* filter:invert(80%);*/
+   /*filter:saturate(4);*/
+   /*filter:drop-shadow(8px 8px 10px gray);*/
+   /*filter:hue-rotate(90deg);*/
+   /*filter:sepia(100%);
+   filter:contrast(250%) brightness(150%);*/
+}
+
+.bg-color-name-title{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+/* ----------------------------------------Section */
+.bg-color-nav{
+    background-color: #13293D;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 25px;
+    display: block;
+    color: #fafafa;
+    font-size: 30px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-right:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------Footer*/
+
+footer{
+    background-color: #596d7d;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #16324F;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #16324F;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #fff;
+    color: #16324F
+}
+
+#footer-details {
+    padding: 35px;
+}
