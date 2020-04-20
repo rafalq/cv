@@ -17,6 +17,14 @@
     background-color: #2A628F;
 }
 
+.ui-menu-color-interests {
+    background-color: #1c4875;
+}
+
+.ui-menu-color-github {
+    background-color: #425a73;
+}
+
 .ui-menu-color-contact {
     background-color: #16324F;
 }
@@ -68,10 +76,15 @@ h4 {
 .section-heading{
     font-family: "Exo", sans-serif;
     font-weight: 400;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #16324F;
 }
 
+.heroku-icon{
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
 /* ----------------------------------------Header */
 
 header{
@@ -162,9 +175,6 @@ header{
     letter-spacing: 2px;
 }
 
-.about-section{
-    padding-left: 30px;
-}
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-right:before {
@@ -196,29 +206,12 @@ footer{
     color: #16324F;
 }
 
-.social-links {
-    padding-bottom: 15px;
+#no-social {
+	font-size: 20px;
 }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #16324F;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #fff;
-    color: #16324F;
+#anarchy-img {
+	width: 22px;
 }
 
 #footer-details {
@@ -226,6 +219,10 @@ footer{
 }
 
 /* ----------------------------------------Three Reasons */
+
+.about-me{
+    float: left;
+}
 
 .three-reasons-icon{
     font-size: 26px;
@@ -236,51 +233,67 @@ footer{
     margin-bottom: 10px;
 }
 
-/* ----------------------------------------Resume */
-
-.skills{
-    float: left;
-    padding-left: 25px;
-    padding-right: 15px;
-}
-
-.skills-text{
+.row-about-me{
+    padding-bottom: 20px;
     padding-left: 10px;
 }
+
+.interests{
+    float: right;
+}
+
+.interests-heading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.interests-icon{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.row-interests{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+/* ----------------------------------------Resume */
 
 .work-history{
     float: right;
     padding-left: 20px;
+    height: 100%;
 }
 
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
+.education{
+    float: left;
+    padding-left: 25px;
+    padding-right: 15px;
+    height: 100%;
 }
 
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
+.resume-icon{
+    font-size: 18px;
+    padding-right: 10px;
+    vertical-align: 15px;
+}
+
+.edu-heading {
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.work-heading {
     color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress-section {
-    margin: 40px 20px;
-}
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
     border-left: 1px solid;
 }
 
@@ -311,12 +324,70 @@ footer{
     left: -6px;
     border-radius: 12px;
     content: '';
+    background-color: #7185a2 !important;
+}
+
+.work-color-timeline-item:after{
     background: #fafafa;
+}
+
+.work-color-timeline-item{
+    color: #fafafa;
+
+}
+
+.edu-color-timeline-item{
+    color: #000;
+
+}
+
+.edu-color-timeline-item:after{
+    background-color: #000;
+
+}
+
+i.fas.fa-award{
+    color: #28a745;
 }
 
 .history-items {
     padding-left: 20px;
     margin-bottom: 30px;
+}
+
+/* ----------------------------------------Skills */
+
+.skills {
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.skills-text{
+    padding-left: 10px;
+}
+
+.skills-row{
+    padding: 20px 10px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 10px;
+
 }
 
 /* ----------------------------------------Contact Form */
@@ -325,7 +396,7 @@ footer{
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #16324F;
-    margin-top: 25px;
+    margin-top: 55px;
     margin-bottom: 20px;
 }
 
@@ -349,11 +420,22 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #16324F;
 }
+
 button[type="submit"]:visited,
 button[type="submit"]:active,
 button[type="submit"]:hover {
     color: #fafafa !important;
     background-color: #2d445d !important;
+}
+
+#flash-message{
+    visibility: hidden;
+}
+/* ----------------------------------------Github */
+
+#github-user-name{
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 
 /* ----------------------------------------Media Queries */

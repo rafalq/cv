@@ -7,7 +7,10 @@
   <!-- Bootstrap CSS CDN-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <!-- Font Awesome CDN-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Fontawesome -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+ integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9"
+ crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Rafal's CV</title>
@@ -34,39 +37,43 @@
             <a href="index.html" class="hvr-sweep-to-right"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
           </li>
           <li class="col-12 ui-menu-color-resume menuitem">
-            <a href="resume.html" class="hvr-sweep-to-right"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+            <a href="resume.html" class="hvr-sweep-to-right"><i class="fas fa-history" aria-hidden="true"></i><span>Resume</span></a>
+          </li>
+          <li class="col-12 ui-menu-color-interests menuitem">
+            <a href="skills.html" class="hvr-sweep-to-right"><i class="fas fa-tools" aria-hidden="true"></i><span>Skills</span></a>
+          </li>
+          <li class="col-12 ui-menu-color-github menuitem">
+            <a href="github.html" class="hvr-sweep-to-right"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a>
           </li>
           <li class="col-12 ui-menu-color-contact menuitem">
-            <a href="contact.html" class="hvr-sweep-to-right"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+            <a href="contact.html" class="hvr-sweep-to-right"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
           </li>
           <li class="col-12 ui-menu-color-download menuitem">
             <a href="assets/cv/cv.docx" target="_blank" class="hvr-sweep-to-right"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
           </li>
         </ul>
       </div>
-      <div class="col-md-9 bg-color-three-reasons px-3 px-md-5">
-        <div class="row">
-          <div class="col">
-            <h3 class="section-heading uppercase pl-3 py-3">About Me</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-          <div class="row">
-            <div class="col-2">
+
+      <div class="col-md-9 bg-color-three-reasons">
+
+
+        <div class="col-md-6 about-me">
+          <h2 class="section-heading uppercase pl-3 py-3">About Me</h2>
+
+          <div class="row row-about-me">
+            <div class="col-1">
               <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
             </div>
               <div class="col-10">
                 <h4 class="three-reasons-heading uppercase">What do I do?</h4>
                 <p>
-                  I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
+                  I'm a Full Stack Developer with diverse interests and great enthusiasm that I bring to every project.
                 </p>
               </div>
             </div>
-          </div>
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-            <div class="row">
-              <div class="col-2">
+
+            <div class="row row-about-me">
+              <div class="col-1">
                 <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
               </div>
               <div class="col-10">
@@ -76,21 +83,72 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-            <div class="row">
-              <div class="col-2">
+
+            <div class="row row-about-me">
+              <div class="col-1">
                 <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
               </div>
               <div class="col-10">
                 <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
                 <p>
-                  I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
+                  I work effectively in getting things. I'm a keen team player who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
                 </p>
               </div>
             </div>
+
+        </div>
+
+
+        <div class="col-md-6 interests">
+          <h4 class="section-heading interests-heading uppercase pl-3 py-3">Interests</h4>
+          <div class="row">
+
+            <div class="col-12">
+              <div class="row row-interests">
+                <h4 class="three-reasons-heading uppercase">Literature</h4>
+                <i class="interests-icon fas fa-book-open" aria-hidden="true"></i>
+              </div>
+              <p>
+                As only I have some spare time I read mainly philosophy. I used to like fantasy or sf books.
+				Actually I still do...
+              </p>
+            </div>
+
+            <div class="col-12">
+              <div class="row row-interests">
+                <h4 class="three-reasons-heading uppercase">Coding</h4>
+                <i class="interests-icon far fa-keyboard" aria-hidden="true"></i>
+              </div>
+              <p>
+                80% of my time I spend coding or learning new things about programming.
+              </p>
+            </div>
+
+            <div class="col-12">
+            <div class="row row-interests">
+              <h4 class="three-reasons-heading uppercase">Music</h4>
+              <i class="interests-icon fas fa-music" aria-hidden="true"></i>
+            </div>
+            <p>
+              If I was born in a different circumstances, I would be a proffessional musician.
+            </p>
+          </div>
+
+          <div class="col-12">
+            <div class="row row-interests">
+              <h4 class="three-reasons-heading uppercase">Crossfit</h4>
+              <i class="interests-icon fas fa-dumbbell" aria-hidden="true"></i>
+            </div>
+            <p>
+              From martial arts to kettlebell...
+            </p>
+          </div>
+
+          </div>
+
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -107,52 +165,15 @@
         <h5 class="uppercase general-sub">Download</h5>
         <p class="inline-block">
           Need a printable version of my CV? Download it here.
-          <a href="#" target="_blank" class="cv-pdf">
+          <a href="assets/cv/cv.docx" target="_blank" class="cv-pdf">
             <i class="fa fa-download" aria-hidden="true"></i>
             <span class="sr-only">Download link.</span>
           </a>
         </p>
       </div>
       <div class="col-sm-4">
-        <h5 class="uppercase general-sub">Social</h5>
-        <ul class="list-inline social-links">
-          <li class="list-inline-item">
-            <a target="_blank" href="#">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="#">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="sr-only">Twitter</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="#">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-              <span class="sr-only">LinkedIn</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="#">
-              <i class="fa fa-pinterest" aria-hidden="true"></i>
-              <span class="sr-only">Pinterest</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="#">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <span class="sr-only">Instagram</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="#">
-              <i class="fa fa-youtube" aria-hidden="true"></i>
-              <span class="sr-only">YouTube</span>
-            </a>
-          </li>
-        </ul>
+        <h5 class="uppercase general-sub"><strike>Social</strike></h5>
+		<p id="no-social">No Soci<img src="assets\images\anarchy.png" id="anarchy-img">l Media!</p>
       </div>
     </div>
   </footer>
